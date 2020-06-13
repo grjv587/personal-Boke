@@ -1,0 +1,251 @@
+/*
+* @Author: grjv5
+* @Date:   2020-06-11 13:11:58
+* @Last Modified by:   grjv5
+* @Last Modified time: 2020-06-13 10:35:35
+*/
+#header {
+	padding-top:16.5px;
+	padding-bottom:14.5px;
+	width:1010px;
+	margin:0 auto;
+}
+#header>div {
+	float:left;
+}
+#headerlist {
+	margin-left:39.5px;
+}
+
+#header div ul {
+	margin-top: 4px;
+}
+#header div ul>li {	
+	list-style-type:none;
+	float:left;
+	width:40px;
+	height:20px;
+	padding-left:8ppx;
+}
+#header div ul>li>a {
+	font-size:9px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgb(5,5,5);
+	text-decoration:none;
+}
+form {
+	padding-left:470px;
+	padding-top:2px;
+}
+.form * {
+    float: left;
+}
+.form .search {
+    width: 171px;
+    height: 20px;
+    border: 1px solid rgba(0,164,255,1);
+    padding-left: 9.5px;
+    font-size:7px;
+	font-family:Microsoft YaHei;
+	font-weight:400;
+	color:rgb(191,191,191,1);
+}
+.form .submit {
+    width: 25px;
+    height: 22px;
+    border: 1px solid rgba(0,164,255,1);
+    background: rgba(208, 61, 61, 1) url(../images/search.png) no-repeat center center;
+    cursor: pointer;
+}
+form>.deng {
+	margin-left:80px;
+}
+form>.zhu {
+	margin-left: 20px;
+}
+/*banner 图*/
+#banner {
+	text-align: center;
+	position: relative;
+	width: 1262.67px;
+	height: 304px;
+	background-color: rgba(15, 24, 55, 1.0);
+	margin: 0 auto;
+}
+#banner>img {
+	width: 1000px;
+	height: 300px;
+}
+#banner>div {
+	position: absolute;
+	top: 230px;
+	left: 150px;
+}
+#banner>div>p>img {
+	vertical-align:bottom;
+}
+#name {
+	font-size: 30px;
+	font-weight: 400;
+	color:rgb(191,191,191,1);
+	text-align: left;
+}
+#introduce {
+	color:rgb(191,191,191,1);
+}
+#introduce>a {
+	color: red;
+}
+
+/*body*/
+#body {
+	background: white url(../images/beijing.jpg) no-repeat center center;
+	background-size:100% 100%;
+}
+#body2 {
+	width: 1010px;
+	margin: 0 auto;
+}
+
+/* 左边介绍部分*/
+#left {
+	display: inline-block;
+	width: 300px;
+	background-color: white;
+	float: left;
+	margin-right: 10px;
+	vertical-align:bottom;
+}
+/*头像部分包括关注粉丝等*/
+#tou {
+	border-bottom:2.7px solid gray;
+}
+#left>#tou>img {
+	width: 200px;
+	height: 200px;
+	margin-left:50px;
+}
+#left>#tou>#tou1 {
+	background: white url(../images/jiaV1.jpg) no-repeat 200px 13px;
+	background-size:20px 20px;
+	font-size: 30px;
+	font-weight: 400;
+	padding-left: 100px;
+}
+#left>#tou>div>ul {
+	padding-left: 90px;
+}
+#left>#tou>div>ul>li{
+	width: 40px;
+	float: left;
+	text-align: center;
+}
+#left>#tou>div>ul>li>a{
+	font-size: 10px;
+	color: gray;
+}
+/*公告*/
+#gonggao {
+	border-bottom:2.7px solid gray;
+}
+#gonggao2 {
+	text-indent: 2em;
+	padding-left:3px;
+}
+/*分类*/
+#fenlei {
+	border-bottom:2.7px solid gray;
+}
+#fenlei>ul>li {
+	margin-left: 10px;
+}
+#fenlei>ul>li>a {
+	color: #EECBAD;
+	line-height:30px;
+}
+#fenlei>ul>li>a:hover {
+	color: green;
+}
+/*链接*/
+/* #lianjie {
+	border-bottom: 2px solid gray;
+} */
+#lianjie>ul>li {
+	padding-left: 35px;
+}
+#lianjie>ul>li>a {
+	color: #8B8386;
+	line-height:30px;
+}
+#lianjie>ul>li>a:hover {
+	color: #AB82FF
+}
+#github {
+	background: white url(../images/github.jpg) no-repeat 5px 5px;
+	background-size:20px 20px;
+}
+#csdn {
+	background: white url(../images/csdn.jpg) no-repeat 5px 5px;
+	background-size:20px 20px;
+}
+#weibo {
+	background: white url(../images/weibo.jpg) no-repeat 5px 5px;
+	background-size:20px 20px;
+}
+#tieba {
+	background: white url(../images/tieba.jpg) no-repeat 5px 5px;
+	background-size:20px 20px;
+}
+
+/* 右边博文的css*/
+#right {
+	display: inline-block;
+	width: 700px;
+	height:830.67px;
+	vertical-align:bottom;
+	background-color: white;
+	float: left;
+}
+#right>div>ul>li {
+	float: left;
+}
+#right>div>h1 {
+	color: #ADFF2F;
+}
+#right>div {
+	padding-left: 2px;
+}
+#right>div>p {
+	vertical-align:bottom;
+}
+#right>div>p>span {
+	color: #228B22;
+}
+.pp {
+	text-indent: 2em;
+	line-height:24px;
+}
+.pp>a {
+	color: #6A5ACD;
+}
+#right>div>ul>li>a {
+	color: #6495ED;
+}
+#right>div>ul>li {
+	width: 50px;
+	text-align: center;
+}
+#right>div>ul>.xian {
+	 border-left: 1px dashed black;
+	 border-right: 1px dashed black;
+}
+/* #fifth {
+	border-bottom: 2px solid gray;
+} */
+#shengming {
+	text-align: center;
+	line-height: 30px;
+	color: gray;
+	background-color: 
+}
